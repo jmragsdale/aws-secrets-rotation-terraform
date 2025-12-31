@@ -19,12 +19,12 @@ This project implements automated secrets rotation for RDS database credentials 
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                         AWS Account                              │
+│                         AWS Account                             │
 │  ┌──────────────────┐    ┌──────────────────┐                   │
 │  │  Secrets Manager │───▶│  Lambda Function │                   │
 │  │  (RDS Creds)     │    │  (Rotation)      │                   │
 │  └────────┬─────────┘    └────────┬─────────┘                   │
-│           │                       │                              │
+│           │                       │                             │
 │           │    ┌──────────────────┼──────────────────┐          │
 │           │    │     VPC          │                  │          │
 │           │    │  ┌───────────────▼───────────────┐  │          │
