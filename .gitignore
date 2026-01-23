@@ -19,3 +19,5 @@ Thumbs.db
 *.pem
 *.key
 secrets.tfvars
+
+*_onenote.html
