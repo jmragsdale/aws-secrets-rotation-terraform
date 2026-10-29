@@ -1,0 +1,77 @@
+{
+  "title": "AWS Secrets Rotation",
+  "titleFontSize": 86,
+  "mobileTitle": [
+    "AWS secrets",
+    "rotation"
+  ],
+  "eyebrow": "CREDENTIAL MANAGEMENT",
+  "tagline": "Rotation resources, defined in code.",
+  "mobileTagline": [
+    "Rotation resources,",
+    "defined in code."
+  ],
+  "description": [
+    "A Secrets Manager and Lambda reference for RDS credentials.",
+    "Terraform resources, configurable inputs and setup notes."
+  ],
+  "mobileDescription": [
+    "A Secrets Manager and Lambda reference.",
+    "RDS credential inputs and setup notes."
+  ],
+  "footerLeft": "TERRAFORM",
+  "footerMiddle": "AWS / SECRETS MANAGER",
+  "footerRight": "SECRET / ROTATION / DATABASE",
+  "diagram": [
+    "SECRET",
+    "ROTATE",
+    "RDS"
+  ],
+  "summary": "A Terraform reference for AWS Secrets Manager and Lambda rotation resources for RDS credentials, with configuration and setup notes.",
+  "cards": [
+    {
+      "slug": "architecture",
+      "category": "ARCHITECTURE",
+      "title": "Follow the architecture",
+      "lines": [
+        "Review the components and the",
+        "documented processing or access flow."
+      ],
+      "footer": "DESIGN / REFERENCE FLOW",
+      "href": "#architecture-guide"
+    },
+    {
+      "slug": "source",
+      "category": "IMPLEMENTATION",
+      "title": "Read the Terraform source",
+      "lines": [
+        "Inspect infrastructure declarations",
+        "and their configuration inputs."
+      ],
+      "footer": "SOURCE / REFERENCE CODE",
+      "href": "main.tf"
+    },
+    {
+      "slug": "setup",
+      "category": "GET STARTED",
+      "title": "Review the setup guide",
+      "lines": [
+        "Read prerequisites and setup steps",
+        "before adapting the example."
+      ],
+      "footer": "SETUP / CONFIGURATION",
+      "href": "#setup-guide"
+    },
+    {
+      "slug": "inputs",
+      "category": "CONFIGURATION",
+      "title": "Inspect rotation inputs",
+      "lines": [
+        "Review configuration variables",
+        "and the documented defaults."
+      ],
+      "footer": "TERRAFORM / INPUT VARIABLES",
+      "href": "variables.tf"
+    }
+  ]
+}
